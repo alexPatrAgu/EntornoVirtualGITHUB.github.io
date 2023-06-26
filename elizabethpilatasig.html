@@ -1,91 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--TITULO DE PAGINA-->
+<html>
 <head>
-    <title>Pagina web</title> 
-    <!--APLICACION DE CSS-->
-    <link href="css/menu.css" rel="stylesheet">
-    <link href="css/InterfCss.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Primer Proyecto</title>
 </head>
 <body>
-    <table border="0" width="100%" long="100%" align="center" bgcolor=" #A569BD " class="tabla_1">
-        <table border="0" width="90%" long="90%" align="center" #D2B4DE ">
-            <!--PORTADA-->
-            <td border="0" align="center">
-                <img src="ImagInterfacesP/LogUtc.png"  width="900px" height="200px" class="portada_In">
-            </td>
-        </table>
-        <table border="0" width="90%" long="90%" align="center" bgcolor="#AF7AC5 ">
-            <!--Tabla menú opciones_1-->
-            <tr>
-                <td>
-                    <table border="0" align="right">
-                    <tr>
-                        <!--Menu desplegable con listas-->
-                        <header>
-                            <nav class="navegacion">
-                                <ul  align="center" class="menu">
-                                    <li><a><h3>MENU</h3></a>
-                                        <ul align="left" class="submenu">
-                                            <!--AlexAguirre-->
-                                            <li><a href="index.html"><h3>Inicio</h3></a></li>
-                                            <li><a href="Integrantes.html"><h3>Integrantes</h3></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </header>
-                    </tr> 
-                    </table>      
-                </td>
-            </tr> 
-        </table>
-        <table border="0" width="90%" long="90%" align="center" bgcolor="#D2B4DE">
-            <!--Tabla menú opciones_1-->
-            <tr>
-                <td>
-                    <table border="0" align="right">
-                    <tr>
-                        <!--Menu desplegable con listas-->
-                        <h1 align="center">ESTUDIANTE</h1>
-                        </br>
-                        </br>
-                        <header>
-                            <nav class="navegacion">
-                                <ul  align="center" class="menu">
-                                    <li>
-                                        <ul  align="right" class="menu">
-                                            <li><a href="elizabethpilatasig.html"><h3>Elizabeth Pilatasig</h3></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </header>
-                        <h1 align="center">
-                            UNIVERSIDAD TECNICA DE COTOPAXI 
-                            ELIZABETH DEL CARMEN PILATASIG TOAPANTA.
-                            ESTUDIANTE DE LA CARRERA DE INGENIERIA EN SISTEMAS DE INFORMACION. 
-                            QUINTO CICLO.
-                        </h1>
-                    </tr> 
-                    </table>      
-                </td>
-            </tr> 
-        </table>
-        <!--CONTENIDO-->
-        <table border="0" width="90%" long="90%" align="center" bgcolor="#AF7AC5">
-            <tr>
-                <td align="center">
-                    <img src="ImagInterfacesP/elizabethpilatasig.jpg" class="cuadrado">
-                </td>
-            </tr>
-        </table>
-        <!--TABLA PIE DEL DISEÑO--> 
-        <table border="0" width="90%" long="90%" align="center" bgcolor="#D7BDE2 "> 
-            <tr align="center">
-                <td colspan="1" align="center"><p><small>Elizabeth del Carmen Pilatasig Toapanta, Quinto semestre, INTERFACES DE COMPUTADOR Y PLATAFORMAS INFORMATICAS.®</small><p/></td>
-            </tr>
-        </table>
-    </table>
+	<table align="center" bgcolor="#83C1D3">
+		<tr>
+			<td colspan="2">
+				<h1> Guía de Entrenamiento Virtual </h1>
+			</td>
+			<td>
+				<img src="img/luna11.jpg" height="100px" width="200px" />
+			</td>
+		</tr>
+			<td colspan="3">
+				<table border="2px" width="100px">
+					<tr>
+						<td>
+							<a href="index.html" title="Pagina de inicio">
+								INICIO
+							</a> 
+						</td>
+						<td width="2px" bgcolor="#512E5F">
+						</td>
+						<td>
+							<a href="informacion.html" title="Informacion de DOOM">
+							INFORMACION
+						    </a>
+						</td>
+						<td width="2px" bgcolor="#2E86C1">
+						</td>
+						<td>
+							<a href="galeria.html" title="Fotos del JUEGO">
+							GALERIA
+						    </a>
+						</td>
+						<td width="80%">
+							&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" height="2px" bgcolor="
+						#7E5109">
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" valign="top">
+				<form name="informacion" method="post" action="email.php">
+                <form action="" method="POST" enctype="multipart/form-data">
+					<fieldset>
+						<legend> Datos personales </legend>
+						<table>
+							<tr>
+								<td>
+									<label>
+										Nombre:
+									</label>
+								</td>
+								<td>
+									<input type="text" name="nombre" placeholder="nombre del cliente" minlength="4" maxlength="30" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Apellido:
+									</label>
+								</td>
+								<td>
+									<input type="text" name="apellido" placeholder="apellido del cliente" minlength="4"
+									maxlength="30" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Correo:
+									</label>
+								</td>
+								<td>
+									<input type="email" name="correo" placeholder="sistemas@utc.edu.ec" minlength="10"
+									maxlength="30" required autocomplete="off"> 
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Telefono:
+									</label>
+								</td>
+								<td>
+									<input type="tel" name="telefono" placeholder="0992907583" minlength="10"
+									maxlength="15" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Ciudad:
+									</label>
+								</td>
+								<td>
+								<select name="ciudad" required>
+									<option value="Latacunga">
+										Latacunga
+									</option>
+									<option value="Ambato">
+										Ambato
+									</option>
+									<option value="Quito">
+										Quito
+									</option>
+									<option value="Pujili" selected> Pujili
+									</option>
+								</select>	
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Observacion:
+									</label>
+								</td>
+								<td>
+									<textarea name="observacion" rows="10" cols="15" placeholder="observaciones que queire comunicar" >
+									</textarea>
+								</td>
+							</tr>
+							<tr>
+
+								<td colspan="2">
+									<input type="date" name="fecha" value="2022-11-21" min="2022-11-20" 
+									max="2022-12-25">
+	 				 					    		<br>
+	 				 					    		<input type="time" name= "hora" >
+	 				 					    	</td>
+	 				 
+								<td>
+									<input name="boton" type="submit" value="Enviar Datos">
+								</td>
+								<td>
+								<input type="reset" value="Limpiar Datos">	
+								</td>
+								
+                                </form>
+                              </body>
+							</tr>
+						</table>
+					</fieldset>
+				</form>
+			</td>
+			<td>
+				<img src="img/luna10.jpg" width="250px" height="300px">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" height="2px" bgcolor="#2471A3">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<h6 align="center">
+					La única adicción que deberías tener, es la de superarte a ti mismo cada día más.
+				</h6>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
