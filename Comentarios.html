@@ -1,0 +1,124 @@
+<html>
+    <!--TITULO DE PAGINA-->
+    <head>
+        <title>Veterinaria Santo Pastor</title> 
+        <!--APLICACION DE CSS-->
+        <link href="css/menu.css" rel="stylesheet">
+        <link href="css/estyle2.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+        <!--COLOR DEL CUERPO DE LA PAGINA-->
+        <body bgcolor="#0623F6">
+        <!--TABLA PRINCIPAL-->
+        <!--Centra; color-->
+        <table border="0" width="100%" align="center" bgcolor="#0B73F8" class="tabla_1">
+            <!--PORTADA-->
+            <tr>
+                <td colspan="8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imagenes/LOGO_P/LOGO.jpg" width="350px" height="150px" class="edit_1"></td>
+            </tr>
+            <!--Tabla menú opciones_1-->
+            <tr>
+                <td colspan="8" >
+                    <table border="0" align="right">
+                    <tr>
+                        <!--Menu desplegable con listas-->
+                        <header>
+                            <nav class="navegacion">
+                                <ul  align="right" class="menu">
+                                    <li><a href="inicio.html"><h3>inicio</h3></a></li>
+                                    <li><a href="Servicio.html"><h3>servicios</h3></a>
+                                        <ul align="left" class="submenu">
+                                            <li><a href="especialidades.html"><h3>Especialidades</h3></a></li>
+                                            <li><a href="Servicio Medicos.html"><h3>Servicios Médicos</h3></a>
+                                        </ul>
+                                    </li>
+                                    <li><a href="Contacto.html"><h3>Contacto</h3></a></li> 
+                                    <li><a href="Comentarios.html"><h3>Comentario</h3></a></li> 
+                                </ul>
+                            </nav>
+                        </header>
+                    </tr> 
+                    </table>      
+                </td>
+            </tr>
+            <!--TABLA DE COMENTARIOS-->
+            <!--ancho;largo-->
+            <tr>
+                <td align="center" class="tabla_1">
+                <img src="imagenes/LOGO_P/LOGO_2.jpg" width="700px" height="500" class="tabla_1">
+                </td>
+                <td colspan="4">
+                    <fieldset>
+                        <legend align="center">Ingrese sus datos</legend>
+                        <form action="index.html" method="post">
+                    <table>
+                            <tr>
+                                <td colspan="4">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Nombre</td> 
+                                <td> &nbsp;</td>
+                                <td><input type="text" name="nombres" maxlength="20" size="20" value="Alex"></td>
+                            </tr>
+                            <tr>
+                                <td> País</td>
+                                <td> &nbsp;</td>
+                                <td><select name="PAÍS">
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Chile">Perú</option>
+                                </select>
+                            </td>
+                        </tr>
+            
+                            <tr>
+                                <td>Dirección</td>
+                                <td>&nbsp;</td>
+                                <td><input type="text" name="direccion" maxlength="40" size="40" value="San Felipe"></td>
+                            </tr>
+            
+                            <tr>
+                                <td>Teléfono</td>
+                                <td>&nbsp;</td>
+                                <td><input type="text" name="Telefono" maxlength="10" size="10" value="0989782516"></td>
+                            </tr>
+            
+                            <tr>
+                                <td colspan="3">
+                                    <input type="radio" name="mañana"checked>Mañana&nbsp;&nbsp;
+                                    <input type="radio" name="tarde">Tarde &nbsp;&nbsp;
+                                    <input type="radio" name="noche">Noche
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Comentario</td>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <textarea cols="30" rows="5" name="comentarios"></textarea>
+                                </td>
+                            </tr>
+            
+                            <tr>
+                                <td>
+                                    <input type="button"value="ENVIAR"/>
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <input type="button"value="CANCELAR"/>
+                                </td>
+                            </tr>
+                    </table>
+                </form>
+                </fieldset> 
+                </td>
+            <!--TABLA PIE DEL DISEÑO-->
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="8" align="center"><p><small>Alex Patricio Aguirre Guaigua, Quinto semestre, Interfaces de computador y plataformas informaticas.®</small><p/></td>
+            </tr>
+        </table>
+    </body>
+</html>
