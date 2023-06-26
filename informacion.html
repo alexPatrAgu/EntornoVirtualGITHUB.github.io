@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Primer Proyecto</title>
+</head>
+<body>
+	<table align="center" bgcolor="#83C1D3">
+		<tr>
+			<td colspan="2">
+				<h1> Luna </h1>
+			</td>
+			<td>
+				<img src="img/luna11.jpg" height="100px" width="200px" />
+			</td>
+		</tr>
+			<td colspan="3">
+				<table border="2px" width="100px">
+					<tr>
+						<td>
+							<a href="index.html" title="Pagina de inicio">
+								INICIO
+							</a> 
+						</td>
+						<td width="2px" bgcolor="#512E5F">
+						</td>
+						<td>
+							<a href="informacion.html" title="Informacion de DOOM">
+							INFORMACION
+						    </a>
+						</td>
+						<td width="2px" bgcolor="#2E86C1">
+						</td>
+						<td>
+							<a href="galeria.html" title="Fotos del JUEGO">
+							GALERIA
+						    </a>
+						</td>
+						<td width="80%">
+							&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" height="2px" bgcolor="
+						#7E5109">
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" valign="top">
+				<form name="informacion" method="post" action="email.php">
+                <form action="" method="POST" enctype="multipart/form-data">
+					<fieldset>
+						<legend> Datos personales </legend>
+						<table>
+							<tr>
+								<td>
+									<label>
+										Nombre:
+									</label>
+								</td>
+								<td>
+									<input type="text" name="nombre" placeholder="nombre del cliente" minlength="4" maxlength="30" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Apellido:
+									</label>
+								</td>
+								<td>
+									<input type="text" name="apellido" placeholder="apellido del cliente" minlength="4"
+									maxlength="30" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Correo:
+									</label>
+								</td>
+								<td>
+									<input type="email" name="correo" placeholder="sistemas@utc.edu.ec" minlength="10"
+									maxlength="30" required autocomplete="off"> 
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Telefono:
+									</label>
+								</td>
+								<td>
+									<input type="tel" name="telefono" placeholder="0992907583" minlength="10"
+									maxlength="15" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Ciudad:
+									</label>
+								</td>
+								<td>
+								<select name="ciudad" required>
+									<option value="Latacunga">
+										Latacunga
+									</option>
+									<option value="Ambato">
+										Ambato
+									</option>
+									<option value="Quito">
+										Quito
+									</option>
+									<option value="Pujili" selected> Pujili
+									</option>
+								</select>	
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										Observacion:
+									</label>
+								</td>
+								<td>
+									<textarea name="observacion" rows="10" cols="15" placeholder="observaciones que queire comunicar" >
+									</textarea>
+								</td>
+							</tr>
+							<tr>
+
+								<td colspan="2">
+									<input type="date" name="fecha" value="2022-11-21" min="2022-11-20" 
+									max="2022-12-25">
+	 				 					    		<br>
+	 				 					    		<input type="time" name= "hora" >
+	 				 					    	</td>
+	 				 					    </tr>
+	 				 					       <tr>
+	 				 			
+	 				 					<td>
+	 				 							    <input type="reset" name="Limpair Datos">
+	 				 								<br>
+	 			                                    <input type="tel" name="telefono" pattern="[0-9]{4}-[0-9]{3}-[0-9]{7}">
+	 			                                    <br>
+	 			                                   
+								    <input type="radio" checked name="mascota" value="Luna"> <label> Luna </label> 
+								    <input type="radio" name="mascota" value="Sol"> <label>Sol</label>
+	 			                     
+	 			                     <br>
+								    <input type="Checkbox" name="marca[]" value="De día"> <label>De día</label>
+								    <input type="Checkbox" name="marca[]" value="De tarde"> <label> De tarde</label>
+								    <input type="Checkbox" checked name="marca[]" value="De noche"> <label>De noche</label>
+								    </td>
+								</td>
+							</tr>
+							<tr>	
+								<td>
+									<input name="boton" type="submit" value="Enviar Datos">
+								</td>
+								<td>
+								<input type="reset" value="Limpiar Datos">	
+								</td>
+								<td>
+								  <input type="file" name="archivo" />
+    
+	
+								</td>
+
+                                </form>
+                              </body>
+							</tr>
+						</table>
+					</fieldset>
+				</form>
+			</td>
+			<td>
+				<img src="img/luna10.jpg" width="250px" height="300px">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" height="2px" bgcolor="#2471A3">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<h6 align="center">
+					QUINTO "A"-- SISTEMAS
+				</h6>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
